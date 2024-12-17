@@ -13,6 +13,14 @@ Predicted the number of labels in LCSH-subjectheadings. And compute the cosine s
 ## Introduction
 
 
+This project aims to enhance multi-label classification for LCSH subject headings by predicting the number of relevant labels and computing cosine similarities between labels and input texts.
+Our cover 1,000,000 records using a robust multi-stage pipeline. First, data is categorized into 21 classes based on the first letter of Library of Congress Classification (LCC) numbers. Then, different embedding models like SciBERT, BERT, and Transformer are used to compute text representations. Various regression models, including Linear Regression, Random Forest, and XGBoost, are employed to predict the number of labels for each record.
+
+Once the label count is determined, the system computes cosine similarities between the input text and potential labels within the predicted category. The top-N labels are selected based on the computed similarities, with rankings generated for top-5, top-10, top-20, and top-50 labels.
+
+
+
+
 ## Features
 - Predicted the number of labels in LCSH-subjectheadings by using our new data(1000,000 records-bibli2).
 - We divide all data into 21 categories by the first letter of LCC numbers. 
