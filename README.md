@@ -19,9 +19,9 @@ Our cover 1,000,000 records using a robust multi-stage pipeline. First, data is 
 Once the label count is determined, the system computes cosine similarities between the input text and potential labels within the category. 
 
 Our extracted data can be accessed 
-[here].(https://drive.google.com/file/d/11pLAjbPchOExlWqyw8Xb0fnKNW8FREGf/view?usp=sharing)
+[here](https://drive.google.com/file/d/11pLAjbPchOExlWqyw8Xb0fnKNW8FREGf/view?usp=sharing).
 
-Our cleaned data can be accessed [here]. (https://drive.google.com/file/d/1mgIlPmodmt8w4P-IvpgxUhBcWPDy_oOK/view?usp=drive_link)
+Our cleaned data can be accessed [here](https://drive.google.com/file/d/1mgIlPmodmt8w4P-IvpgxUhBcWPDy_oOK/view?usp=drive_link).
 
 
 
